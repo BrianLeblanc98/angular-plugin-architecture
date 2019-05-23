@@ -1,7 +1,7 @@
 # Angular Plugin Architecture Example
 This project represents an example of how to achieve a plugin architecture in angular.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.4.
+This project runs with Angular ~7.2.0 and does not use SystemJS
 
 # Article related: 
 
