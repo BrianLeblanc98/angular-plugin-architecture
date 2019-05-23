@@ -1,7 +1,7 @@
 import { AfterViewInit, Component, Compiler, Injector, ViewChild, 
          ViewContainerRef } from '@angular/core';
 
-declare const SystemJS: any;
+//declare const window: any;
 
 @Component({
   selector: 'app-root',
@@ -18,7 +18,7 @@ export class AppComponent implements AfterViewInit {
   
   private async loadPlugins() {
     // import external module bundle
-    const module = await SystemJS.import("assets/plugins/plugin-a.bundle.js");
+    const module = await import("../assets/plugins/plugin-a.bundle");
 
     // compile module
     const moduleFactory = await this._compiler

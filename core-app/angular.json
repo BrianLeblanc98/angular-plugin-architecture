@@ -25,9 +25,7 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": [
-              "./node_modules/systemjs/dist/system.js"
-            ]
+            "scripts": []
           },
           "configurations": {
             "production": {
