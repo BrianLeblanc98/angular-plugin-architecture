@@ -6,16 +6,16 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 # Article related: 
 
 # Setup 
-> cd plugins/plugin-a
+* cd plugins/plugin-a
 
-> npm install
+* npm install
 
-> npm run build
+* npm run build
 
 ------
 
-> cd core-app 
+* cd core-app 
 
-> npm install
+* npm install
 
-> npm start
+* npm start
