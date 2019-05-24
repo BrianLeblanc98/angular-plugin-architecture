@@ -1,21 +1,21 @@
 # Angular Plugin Architecture Example
 This project represents an example of how to achieve a plugin architecture in angular.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.4.
+This project runs with Angular ~7.2.0 and does not use SystemJS
 
-# Article related: 
+# Article related [here](https://itnext.io/how-to-build-a-plugin-extensible-application-architecture-in-angular5-736890278f3f)
 
 # Setup 
-> cd plugins/plugin-a
+* cd plugins/plugin-a
 
-> npm install
+* npm install
 
-> npm run build
+* npm run build
 
 ------
 
-> cd core-app 
+* cd core-app 
 
-> npm install
+* npm install
 
-> npm start
+* npm start
