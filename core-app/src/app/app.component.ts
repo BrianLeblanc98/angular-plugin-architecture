@@ -1,8 +1,6 @@
 import { AfterViewInit, Component, Compiler, Injector, ViewChild, 
          ViewContainerRef } from '@angular/core';
 
-//declare const window: any;
-
 @Component({
   selector: 'app-root',
   template: '<div #content></div>'
